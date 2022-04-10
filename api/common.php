@@ -46,41 +46,7 @@
     }
     function makeError($error, $message){
         header('HTTP/1.0 '.$error);
-        echo '<!DOCTYPE html>
-        <html lang="kr">
-        <head>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <script src="https://chicken-moo.com/files/js/jquery-latest.js"></script>
-            <script src="https://dimi.monster/js/common.js"></script>
-            <script src="https://dimi.monster/js/style.js?src=index"></script>
-            <script src="https://dimi.monster/js/style.js?src=error"></script>
-            <title>디미몬스터 :: 나의 소울메이트 찾기</title>
-        </head>
-        <body link="black" alink="black" vlink="black">
-            <div class="title">
-                <div class="flexBox pointer">
-                    <img src="/img/dimimonster_logo.svg" alt="디미몬스터 로고" class="logo">
-                    <div class="text">
-                        <div class="mySoulMate">나의 소울메이트 찾기</div>
-                        <div class="dimiMonster">디미몬스터</div>
-                    </div>
-                </div>
-            </div>
-            <div class="inputCode">
-                <div class="resps">
-                    <div class="e1">오류!</div><div class="e2">'.$message.'</div>
-                </div>
-            </div>
-            <script>
-                $(".flexBox").on("click", (event) => {
-                    location.href = "/";
-                });
-            </script>
-            
-        </body>
-        </html>
-        ';
+        echo '<!DOCTYPE html><html lang="kr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><script src="https://chicken-moo.com/files/js/jquery-latest.js"></script><script src="https://dimi.monster/js/common.js"></script><script src="https://dimi.monster/js/style.js?src=index"></script><script src="https://dimi.monster/js/style.js?src=error"></script><title>디미몬스터 :: 나의 소울메이트 찾기</title></head><body link="black" alink="black" vlink="black"><div class="title"><div class="flexBox pointer"><img src="/img/dimimonster_logo.svg" alt="디미몬스터 로고" class="logo"><div class="text"><div class="mySoulMate">나의 소울메이트 찾기</div><div class="dimiMonster">디미몬스터</div></div></div></div><div class="inputCode"><div class="resps"><div class="e1">오류!</div><div class="e2">'.$message.'</div></div></div><script>$(".flexBox").on("click", (event) => {location.href = "/";});</script></body></html>';
         exit();
     }
 ?>

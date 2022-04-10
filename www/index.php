@@ -27,7 +27,7 @@
             <div class="cs">코드 입력<img src="/img/bug.svg" class="codeImg"></div>
             <div class="code-form">
                 <input type="text" autocomplete="off" name="username" class="code-username" placeholder="마스터 등록 코드">
-                <input type="password" autocomplete="off" name="password" class="code-password" placeholder="범죄 조직 인증 코드">
+                <input type="password" autocomplete="off" name="password" class="code-password" placeholder="마스터 인증 코드">
                 <input type="submit" value="마스터 인증" class="code-submit">
             </div>
             <div class="whatismastercode">마스터 코드를 모른다면?&nbsp;<div class="mastercodeis pointer">마스터 확인</div></div>
