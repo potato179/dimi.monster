@@ -1,0 +1,96 @@
+.title{
+    padding: 30px 0 0 30px;
+
+}
+.flexBox{
+    width: 443px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.text{
+    display: inline-block;
+    margin: 0 0 0 20px;
+}
+.dimiMonster{
+    color: var(--main-color);
+    font-size: 40px;
+    font-weight: 800;
+}
+.mySoulMate{
+    font-size: 18px;
+    font-weight: 600;
+}
+.inputCode{
+    height: calc(100% - 130px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    top: -50px;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.monster1{
+    border-radius: 15px;
+
+    margin: 10px 5px;
+
+    width: 310px;
+    height: 310px;
+}
+.code{
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+.codeImg{
+    width: 50px;
+    margin-left: 10px;
+    transform: scale(-1, -1);
+}
+.cs{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.code-username, .code-password{
+    width: 310px;
+    height: 35px;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.code-submit{
+    width: 340px;
+    height: 50px;
+    padding: 10px 15px;
+    margin: 25px 0 0 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+.code-form{
+    width: 400px;
+}
+.whatismastercode{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.mastercodeis{
+    display: inline-block;
+    color: var(--main-color);
+}

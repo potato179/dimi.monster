@@ -1,0 +1,38 @@
+{
+    "name": "디미몬스터 :: 나의 소울메이트 찾기",
+    "short_name": "디미몬스터",
+    "start_url": ".",
+    "display": "standalone",
+    "background-color": "#f8f8f8",
+    "description": "디미몬스터를 통하여 나의 소울메이트를 찾아 보세요!",
+    "icons": [{
+        "src": "img/icon/48x48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+    }, {
+        "src": "img/icon/72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+    }, {
+        "src": "img/icon/96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+    }, {
+        "src": "img/icon/144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+    }, {
+        "src": "img/icon/168x168.png",
+        "sizes": "168x168",
+        "type": "image/png"
+    }, {
+        "src": "img/icon/192x192.png",
+        "sizes": "1172x1172",
+        "type": "image/png"
+    }, {
+        "src": "img/icon/1172x1172.png",
+        "sizes": "1172x1172",
+        "type": "image/png"
+    }],
+    "language": "ko-KR"
+}
