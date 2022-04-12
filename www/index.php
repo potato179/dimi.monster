@@ -12,7 +12,7 @@
 <body link="black" alink="black" vlink="black">
     <div class="title">
         <div class="flexBox">
-            <img src="/img/dimimonster_logo.svg" alt="디미몬스터 로고" class="logo">
+            <img src="./img/dimimonster_logo.svg" alt="디미몬스터 로고" class="logo">
             <div class="text">
                 <div class="mySoulMate">나의 소울메이트 찾기</div>
                 <div class="dimiMonster">디미몬스터</div>
@@ -21,7 +21,7 @@
     </div>
     <div class="inputCode">
         <div class="img">
-            <img src="/img/three_bug.svg" class="monster1">
+            <img src="./img/three_bug.svg" class="monster1">
         </div>
         <div class="code">
             <div class="cs">코드 입력<img src="/img/bug.svg" class="codeImg"></div>

@@ -17,13 +17,32 @@
     <link rel = "stylesheet" href = "https://potato179.github.io/style/potato-min.css">
 </head>
 <body>
-    <div class="title">
-        <div class="flexBox">
-            <img src="./img/dimimonster_logo.svg" class="logo">
-            <div class="text">
-                <div class="mySoulMate">나의 소울메이트 찾기</div>
-                <div class="dimiMonster">디미몬스터</div>
+    <div id="main" style="position: fixed; width: 100%; margin: 50px;">
+        <div class="d-flex align-items-center text-decoration-none" style="float: left;">
+            <img src="./img/dimimonster_logo.svg"  style="width: 100px; display: inline-block;">&nbsp;&nbsp;&nbsp;
+            <div style = "vertical-align: middle;"> 
+                <p style = "line-height: 0%;">나의 소울메이트 찾기<h1 class = "bold" style = "color: #F00078;">디미몬스터</h1></p>
+                
             </div>
+        </div>
+    </div>
+    <div class = "inputCode" style = "">
+        <div class="img">
+            <img src="./img/three_bug.svg" class="monster1">
+        </div>
+
+        <div class="code">
+            <h1>코드 입력<img src = "./img/bug.svg" style = "height: 50px;"></h1>
+            <form>
+                <div class="mb-3">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <div class="whatismastercode">마스터 코드를 모른다면?&nbsp;<div class="mastercodeis pointer">마스터 확인</div></div>
         </div>
     </div>
 </body>
