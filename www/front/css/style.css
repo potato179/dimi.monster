@@ -1,0 +1,122 @@
+html, body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#title{
+    position: absolute;
+    width: 450px;
+    height: 125px;
+    left: 50px;
+    top: 50px;
+}
+#title1{
+    position: absolute;
+
+    left: 203px;
+    top: 72px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #333333;
+}
+#title2{
+    position: absolute;
+    left: 203px;
+    top: 98px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    /* identical to box height */
+    color: #F00078;
+}
+#loginimg{
+    position: absolute;
+    width: 379px;
+    height: 379px;
+    left: 510px;
+    top: 367px;
+}
+#logintitle{
+    left: 926px;
+    top: 367px;
+}
+#logintxt{
+    position: absolute;
+    left: 926px;
+    top: 367px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67px;
+
+    color: #333333;
+}
+#loginlogo{
+    position: absolute;
+    width: 54.32px;
+    height: 51.46px;
+    left: 1202.44px;
+    top: 428.24px;
+}
+#loginid{
+    position: absolute;
+    width: 449px;
+    height: 64px;
+    left: 928px;
+    top: 461px;
+}
+#loginpw{
+    position: absolute;
+    width: 449px;
+    height: 64px;
+    left: 928px;
+    top: 546px;
+}
+#loginbutton{
+    position: absolute;
+    width: 449px;
+    height: 67px;
+    left: 928px;
+    top: 646px;
+
+    background: #F00078;
+    border-radius: 9px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+#forgotpasswordtxt{
+    position: absolute;
+    width: 451px;
+    height: 24px;
+    left: 928px;
+    top: 726px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+
+}
