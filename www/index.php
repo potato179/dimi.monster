@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://chicken-moo.com/files/js/jquery-latest.js"></script>
+    <script src="//cdn.chicken-moo.com/jquery/jquery-latest.js"></script>
     <link rel="manifest" href="/js/manifest.webmanifest">
     <script src="./js/common.js"></script>
     <script src="./js/style.js?src=index"></script>
